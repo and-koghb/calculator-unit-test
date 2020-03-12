@@ -1,0 +1,21 @@
+{
+    "name": "task/php",
+    "description": "Custom php.",
+    "type": "project",
+    "require": {
+        "php": ">=7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "5.4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "PhpShow\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PhpShow\\Test\\": "test/"
+        }
+    }
+}
